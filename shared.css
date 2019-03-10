@@ -13,7 +13,7 @@ body {
     padding: 8px 16px;
 }
 
-.main-header>div {
+.main-title {
     display: inline-block;
     vertical-align: middle;
 }
@@ -43,26 +43,26 @@ body {
     margin: 0 16px;
 }
 
-.main-nav__item a {
+.main-nav__ref {
     text-decoration: none;
     color: #0e4f1f;
     font-weight: bold;
     padding: 3px 0;
 }
 
-.main-nav__item a:hover, .main-nav__item a:active {
+.main-nav__ref:hover, .main-nav__ref:active {
     color: white;
     border-bottom: 5px solid white;
 }
 
-.main-nav__item--ctm a {
+.main-nav__ref--ctm {
     color: white;
     background: #ff1b68;
     padding: 8px 16px;
     border-radius: 8px;
 }
 
-.main-nav__item--ctm a:hover, .main-nav__item--ctm a:active {
+.main-nav__ref--ctm:hover, .main-nav__ref--ctm:active {
     color: #ff1b68;
     background: white;
     border: none;
@@ -86,7 +86,7 @@ body {
     margin: 0 16px;
 }
 
-.mail-footer__link a:hover, .mail-footer__link a:active {
+.mail-footer__ref:hover, .mail-footer__ref:active {
     color: #ccc;
 }
 

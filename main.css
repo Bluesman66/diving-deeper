@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.product-overview h1 {
+.product-overview__title {
     color: white;
     font-family: 'Anton', sans-serif;
 }
@@ -53,11 +53,11 @@
     color: #858585
 }
 
-.plan--highlighted .plan__title {
+.plan__title--highlighted {
     color: white;
 }
 
-.plan--highlighted .plan__price {
+.plan__price--highlighted {
     color: #0e4f1f;
 }
 
