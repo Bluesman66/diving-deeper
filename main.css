@@ -1,8 +1,11 @@
-.product-overview {
-    background: url("freedom.jpg");
+.product-overview {    
+    background-image: url("freedom.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 528px;
+    height: 600px;
     padding: 10px;
+    position: relative;
 }
 
 .section-title {
@@ -11,8 +14,10 @@
 }
 
 .product-overview__title {
-    color: white;
+    color: #face94;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 10%;
 }
 
 .plans__list {
