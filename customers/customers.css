@@ -32,11 +32,11 @@
     width: 30%;
 }
 
-#customer-2.testimonial {
+.testimonial--align_right {
     text-align: right;
 }
 
-#customer-2 .testimonial__info {
+.testimonial__info--align_left {
     text-align: left;
 }
 
